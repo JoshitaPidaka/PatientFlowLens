@@ -1,0 +1,1 @@
+import{P as a,X as i,Y as s,Q as r}from"./charts-CTU9_6P5.js";import{L as x}from"./Line-xJadwCHI.js";var t=a({chartName:"LineChart",GraphicalChild:x,axisComponents:[{axisType:"xAxis",AxisComp:i},{axisType:"yAxis",AxisComp:s}],formatAxisMap:r});export{t as L};
