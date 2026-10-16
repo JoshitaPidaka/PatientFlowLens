@@ -1,0 +1,8 @@
+node_modules/
+frontend/dist/
+__pycache__/
+*.pyc
+.pytest_cache/
+backend/artifacts/
+*.db
+.DS_Store

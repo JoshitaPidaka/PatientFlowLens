@@ -1,0 +1,13 @@
+department_id,department_name,staff_count,bed_count,daily_capacity,service_type
+D01,Emergency,28,29,431,Emergency
+D02,General Medicine,30,48,298,Clinical
+D03,Pediatrics,16,11,368,Clinical
+D04,Cardiology,25,22,394,Clinical
+D05,Orthopedics,9,48,243,Clinical
+D06,Radiology,7,54,153,Diagnostics
+D07,Laboratory,27,55,156,Diagnostics
+D08,Pharmacy,20,26,445,Support
+D09,Surgery,5,17,181,Clinical
+D10,Neurology,12,25,216,Clinical
+D11,Outpatient,16,48,215,Outpatient
+D12,Admissions,5,50,438,Admin

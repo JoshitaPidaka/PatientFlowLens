@@ -1,0 +1,14 @@
+fastapi==0.143.2
+uvicorn==0.53.0
+sqlmodel==0.0.48
+pydantic==2.13.5
+pandas==3.0.5
+numpy==2.5.3
+scikit-learn==1.9.1
+joblib==1.6.0
+pyarrow==26.0.0
+reportlab==5.0.1
+httpx==0.28.1
+pytest==9.1.1
+SQLAlchemy==2.1.4
+starlette==1.6.0

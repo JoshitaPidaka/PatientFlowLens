@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --bg: 246 248 251; --surface: 255 255 255; --surface2: 241 245 249; --line: 228 233 240;
+  --ink: 15 27 45; --muted: 91 107 127; --brand: 14 154 167; --brand2: 11 127 138; --accent: 79 70 229;
+  --bad: 229 72 77; --good: 18 165 148; --neutral: 139 152 169; --warn: 245 158 11;
+  color-scheme: light;
+}
+.dark {
+  --bg: 11 18 32; --surface: 17 26 46; --surface2: 22 33 58; --line: 30 42 68;
+  --ink: 232 238 246; --muted: 148 163 184; --brand: 44 197 210; --brand2: 31 170 183; --accent: 129 140 248;
+  --bad: 255 99 105; --good: 61 217 181; --neutral: 100 116 139; --warn: 251 191 36;
+  color-scheme: dark;
+}
+html, body, #root { height: 100%; }
+body { @apply bg-bg text-ink font-sans antialiased; font-feature-settings: "cv11", "ss01"; }
+.tnum { font-variant-numeric: tabular-nums; }
+.lang-te { font-family: "Noto Sans Telugu", Inter, sans-serif; }
+.lang-hi { font-family: "Noto Sans Devanagari", Inter, sans-serif; }
+::-webkit-scrollbar { width: 10px; height: 10px; }
+::-webkit-scrollbar-thumb { background: rgb(var(--line)); border-radius: 10px; border: 2px solid rgb(var(--bg)); }
+.recharts-cartesian-axis-tick-value { fill: rgb(var(--muted)); font-size: 11px; }
+.recharts-tooltip-wrapper { outline: none; }
+.focus-ring { @apply focus:outline-none focus-visible:ring-2 focus-visible:ring-brand/60 focus-visible:ring-offset-2 focus-visible:ring-offset-bg; }
+@media (prefers-reduced-motion: reduce) { *, *::before, *::after { animation: none !important; transition: none !important; } }
